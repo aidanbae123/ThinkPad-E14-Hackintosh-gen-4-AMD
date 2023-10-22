@@ -36,3 +36,10 @@ What doesn't work:
 - en0 (iServices via WiFi)
 - Chrome and Firefox (Requires hardware acceleration to be disabled)
 
+Works in progress:
+
+- en0 via USB WiFI
+- Fixing sleep
+- Fixing internal mic
+- Startuo chime
+
