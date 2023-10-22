@@ -58,6 +58,15 @@ DISCLAIMER: This is a work in progress, so I am not responsible for any damage t
 ### Pre-install
 
 - Before installing, you need to create your own SMBIOS via CorpNewt's genSMBIOS. The plist is configued to MacBookPro16,3, so generate serials according or use a different model (NOTE: MBP16,1 and 16,4 expect a dGPU and will cause issues with the iGPU).
+- Make sure to (CMD + R) everytime you add any new files to the OC folder.
+  
+
+### Post-Install
+
+- Recommended: Set VRAM to 2GB (or 4GB) in BIOS for improved graphics performance
+    - If you have 8GB RAM, it is not recommended to upgrade to 4GB
+    - This option is under Config/Display in the ThinkPad BIOS
+- OPTIONAL: Remove Ryzen power management as it can cause some instability
 
 
 
