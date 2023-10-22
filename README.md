@@ -70,6 +70,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - Recommended: Set VRAM to 2GB (or 4GB) in BIOS for improved graphics performance
     - If you have 8GB RAM, it is not recommended to upgrade to 4GB
     - This option is under Config/Display in the ThinkPad BIOS
+- Recommended: Change CPU name to actual CPU 
 - OPTIONAL: Remove Ryzen power management as it can cause some instability
 
 
