@@ -9,7 +9,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 
 *** Do NOT include the Tools folder in your EFI folder. ***
 
-## Specs:
+## My Specs:
 
 - Ryzen 7 5825U 
 - Vega 8 iGPU
