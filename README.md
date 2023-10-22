@@ -1,4 +1,6 @@
-# Hackintosh-ThinkPad-E14-Gen-4-AMD
+# Hackintosh EFI for Gen 4 AMD ThinkPad E14
+
+Opencore version 0.9.5
 
 This is a mostly functioning EFI for the ThinkPad E14 gen 4 (AMD version).
 DISCLAIMER: This is a work in progress, so I am not responsible for any damage that may occur to your computer. Use at your own risk.
@@ -42,4 +44,21 @@ DISCLAIMER: This is a work in progress, so I am not responsible for any damage t
 - Fixing sleep
 - Fixing internal mic
 - Startuo chime
+
+## Installation instructions:
+
+### Steps
+1. Download the lastest package
+2. Modify Config.plist as needed
+3. Set BIOS settings
+4. Add to EFI folder of USB installer (EFI/OC & EFI/BOOT)
+5. Go through installation process
+6. Apply post-install fixes
+
+### Pre-install
+
+- Before installing, you need to create your own SMBIOS via CorpNewt's genSMBIOS. The plist is configued to MacBookPro16,3, so generate serials according or use a different model (NOTE: MBP16,1 and 16,4 expect a dGPU and will cause issues with the iGPU).
+
+
+
 
