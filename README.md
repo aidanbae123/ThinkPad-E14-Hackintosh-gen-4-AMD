@@ -8,6 +8,7 @@ DISCLAIMER: This is a work in progress, so I am not responsible for any damage t
 Also, it is generally recommended to build your own EFI, so use only as a last resort or as a guide.
 
 * Resources folder is NOT included in EFI. Download it [here](https://github.com/acidanthera/OcBinaryData/tree/master/Resources) and add it to your OC folder.
+* Also, the current config.plist does NOT have a serial number. Download CorpNewt's GenSMBIOS to create one [here](https://github.com/corpnewt/GenSMBIOS).
 
 *** Do NOT include the Tools folder in your EFI folder. ***
 
