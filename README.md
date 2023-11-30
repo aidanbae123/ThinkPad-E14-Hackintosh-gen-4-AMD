@@ -19,7 +19,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - 16GB DDR4-3200 SODIMM RAM (8GB Soldered + 8GB SODIMM)
 - NVME SSDs: 
     256GB (Windows) + 512GB (Opencore)
-- RTL8852BE (unsupported)
+- Intel AX200
 - RTL8188 (Ethernet)
 - ALC3287/257
 
@@ -32,25 +32,17 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - Keyboard, Trackpad, and Trackpoint
 - Audio (Mostly)
 - Dual Boot
-- WiFi + BT (via USB dongles):
-    - WiFi: RTL8188CU
-    - BT: TP-Link UB400
     
 ## What doesn't work:
 
-- Native Wifi + BT (unsupported)
 - Airplay, Sidecar, etc.
 - Internal Mic
 - Sleep (Very inconsistent)
-- en0 (iServices via WiFi)
-- Chrome and Firefox (Requires hardware acceleration to be disabled)
 
 ## Works in progress:
 
-- en0 via USB WiFI
 - Fixing sleep
 - Fixing internal mic
-- Startuo chime
 
 ## Installation instructions:
 
