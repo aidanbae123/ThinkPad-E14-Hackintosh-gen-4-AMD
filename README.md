@@ -7,8 +7,7 @@ This is a mostly functioning EFI for the ThinkPad E14 gen 4 (AMD version).
 DISCLAIMER: This is a work in progress, so I am not responsible for any damage that may occur to your computer. Use at your own risk.
 Also, it is generally recommended to build your own EFI, so use only as a last resort or as a guide.
 
-* Resources folder is NOT included in EFI. Download it [here](https://github.com/acidanthera/OcBinaryData/tree/master/Resources) and add it to your OC folder.
-* Also, the current config.plist does NOT have a serial number. Download @corpnewt's GenSMBIOS to create one [here](https://github.com/corpnewt/GenSMBIOS).
+* The current config.plist does NOT have a serial number. Download @corpnewt's GenSMBIOS to create one [here](https://github.com/corpnewt/GenSMBIOS).
 
 *** Do NOT include the Tools folder in your EFI folder. ***
 
