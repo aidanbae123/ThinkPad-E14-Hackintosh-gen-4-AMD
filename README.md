@@ -9,7 +9,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 
 * The current config.plist does NOT have a serial number. Download @corpnewt's GenSMBIOS to create one [here](https://github.com/corpnewt/GenSMBIOS).
 
-*** Do NOT include the Tools folder in your EFI folder. ***
+** Do NOT include my Tools folder in your EFI folder. **
 
 ## My Specs:
 
