@@ -36,9 +36,9 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
     
 ## What doesn't work:
 
-- Airplay, Sidecar, etc.
-- ~~Internal Mic~~ PATCHED using @qhuydong's experimental [appleALC patch](https://github.com/qhuyduong/AppleALC) 
 - Sleep (Very inconsistent)
+- Airplay, Sidecar, etc. (Airport needs an authentic apple WiFi chip and sidecar is intel-ONLY)
+- ~~Internal Mic~~ PATCHED using @qhuydong's experimental [appleALC patch](https://github.com/qhuyduong/AppleALC) 
 
 ## Installation instructions:
 
