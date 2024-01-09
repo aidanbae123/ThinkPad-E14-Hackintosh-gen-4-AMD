@@ -8,7 +8,7 @@ DISCLAIMER: This is a work in progress, so I am not responsible for any damage t
 Also, it is generally recommended to build your own EFI, so use only as a last resort or as a guide.
 
 * Resources folder is NOT included in EFI. Download it [here](https://github.com/acidanthera/OcBinaryData/tree/master/Resources) and add it to your OC folder.
-* Also, the current config.plist does NOT have a serial number. Download CorpNewt's GenSMBIOS to create one [here](https://github.com/corpnewt/GenSMBIOS).
+* Also, the current config.plist does NOT have a serial number. Download @corpnewt's GenSMBIOS to create one [here](https://github.com/corpnewt/GenSMBIOS).
 
 *** Do NOT include the Tools folder in your EFI folder. ***
 
@@ -30,29 +30,26 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - Ethernet
 - Camera
 - Keyboard, Trackpad, and Trackpoint
-- Audio (Mostly)
+- Audio
+- Built-in mic
 - Dual Boot
     
 ## What doesn't work:
 
 - Airplay, Sidecar, etc.
-- Internal Mic
+- ~~Internal Mic~~ PATCHED using @qhuydong's experimental [appleALC patch](https://github.com/qhuyduong/AppleALC) 
 - Sleep (Very inconsistent)
-
-## Works in progress:
-
-- Fixing sleep
-- Fixing internal mic
 
 ## Installation instructions:
 
 ### Steps
 1. Download the lastest package
-2. Modify Config.plist as needed
-3. Set BIOS settings
-4. Add to EFI folder of USB installer (EFI/OC & EFI/BOOT)
-5. Go through installation process
-6. Apply post-install fixes
+2. Choose the config.plist that applies to you and delete the rest
+3. RENAME THE FILE TO config.plist (no CAPS)
+4. Set BIOS settings
+5. Add to EFI folder of USB installer (EFI/OC & EFI/BOOT)
+6. Go through installation process
+7. Apply post-install fixes
 
 ### Pre-install
 
@@ -65,7 +62,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - Recommended: Set VRAM to 2GB (or 4GB) in BIOS for improved graphics performance
     - If you have 8GB RAM, it is not recommended to upgrade to 4GB
     - This option is under Config/Display in the ThinkPad BIOS
-- Recommended: Change CPU name to actual CPU 
+- Recommended: Change CPU name to actual CPU using @corpnewt's [CPU-name](https://github.com/corpnewt/CPU-Name)
 - OPTIONAL: Remove Ryzen power management as it can cause some instability
 
 
