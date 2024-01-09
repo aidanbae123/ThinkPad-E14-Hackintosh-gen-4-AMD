@@ -45,7 +45,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 ### Steps
 1. Download the lastest package
 2. Choose the config.plist that applies to you and delete the rest
-3. RENAME THE FILE TO config.plist (no CAPS)
+3. RENAME THE FILE TO config.plist (no CAPS, or else it literaly won't boot)
 4. Set BIOS settings
 5. Add to EFI folder of USB installer (EFI/OC & EFI/BOOT)
 6. Go through installation process
