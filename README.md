@@ -38,7 +38,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - Sleep (Very inconsistent)
 - Airplay, Sidecar, etc. (Airport needs an authentic apple WiFi chip and sidecar is intel-ONLY)
 - Full EC Read-Write access for fan control
-- ~~Internal Mic~~ PATCHED using @qhuydong's experimental [appleALC patch](https://github.com/qhuyduong/AppleALC) 
+- ~~Internal Mic~~ PATCHED using @qhuydong's patch (now part of AppleALC's master branch)
 
 ## Installation instructions:
 
@@ -54,7 +54,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 ### Pre-install
 
 - Before installing, you need to create your own SMBIOS via CorpNewt's genSMBIOS. The plist is configued to MacBookPro16,3, so generate serials according or use a different model (NOTE: MBP16,1 and 16,4 expect a dGPU and will cause issues with the iGPU).
-- Make sure to (CMD + R) everytime you add any new files to the OC folder.
+- Make sure to (CMD + R) in propertree everytime you add any new files to the OC folder.
   
 
 ### Post-Install
