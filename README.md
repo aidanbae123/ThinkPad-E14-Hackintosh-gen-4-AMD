@@ -35,11 +35,11 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
     
 ## What doesn't work:
 
-- Sleep (Very inconsistent)
+- Sleep (Wakes to a black screen after a while)
 - Airplay, Sidecar, etc. (Airport needs an authentic apple WiFi chip and sidecar is intel-ONLY)
 - Full EC Read-Write access for fan control
-- ~~Internal Mic~~ PATCHED using @qhuydong's patch (now part of AppleALC's master branch)
-
+- ~~Internal Mic~~ PATCHED from AppleALC 1.8.8+
+  
 ## Installation instructions:
 
 ### Steps
