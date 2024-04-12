@@ -53,11 +53,12 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 ### Steps
 1. Download the lastest package
 2. Choose the config.plist that applies to you and delete the rest
-3. RENAME THE FILE TO config.plist (no CAPS, or else it literaly won't boot)
-4. Set BIOS settings
-5. Add to EFI folder of USB installer (EFI/OC & EFI/BOOT)
-6. Go through installation process
-7. Apply post-install fixes
+3. Add your generated serial number, board number, etc. to the config.plist
+4. RENAME THE FILE TO config.plist (no CAPS, or else it literaly won't boot)
+5. Set BIOS settings
+6. Add to EFI folder of USB installer (EFI/OC & EFI/BOOT)
+7. Go through installation process
+8. Apply post-install fixes
 
 ### Pre-install
 
