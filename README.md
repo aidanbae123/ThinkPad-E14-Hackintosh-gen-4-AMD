@@ -1,6 +1,6 @@
 # Hackintosh EFI for Gen 4 AMD ThinkPad E14
 
-Opencore version 0.9.9
+Opencore version v0.9.9
 
 This is a mostly functioning EFI for the ThinkPad E14 gen 4 (AMD version).
 
