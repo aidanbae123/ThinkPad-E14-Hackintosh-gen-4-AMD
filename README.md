@@ -41,7 +41,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
     
 ## What doesn't work:
 
-- ~~Sleep (Wakes to a black screen after a while)~~ Now seems to be somewhat functional thanks to either a DSDT patch OR [this supposed fix]([url](https://www.tonymacx86.com/threads/solved-ventura-sonoma-random-scheduled-pm-wake-from-sleep.323359/))
+- ~~Sleep (Wakes to a black screen after a while)~~ Now seems to be somewhat functional thanks to either a DSDT patch OR [this supposed fix]([https://www.tonymacx86.com/threads/solved-ventura-sonoma-random-scheduled-pm-wake-from-sleep.323359/])
 - ~~Full EC Read-Write access for fan control~~ Now fixed thanks to @Collin8000
 - ~~Internal Mic~~ PATCHED from AppleALC 1.8.8+
 
