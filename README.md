@@ -21,24 +21,32 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - Intel AX200
 - RTL8188 (Ethernet)
 - ALC3287/257
-
+- macOS Ventura 13.6.5 (22G621)
 
 ## Working:
 
 - iGPU + Hardware Accelration (via NootedRed)
 - Ethernet
-- Camera
+- Webcam
 - Keyboard, Trackpad, and Trackpoint
 - Audio
 - Built-in mic
 - Dual Boot
+- Continuity Camera (Wired ONLY)
+
+## Minor issues:
+- Audio stops working every now and then, but can be fixed by opening settings and re-selecting the internal speakers as output
+- Certain OpenGL apps (such as Notion) cause massive glitches. Unfortunately notm uch can be done about this as it is an issue with NootedRed itself.
+- Sonoma is still quite buggy
     
 ## What doesn't work:
 
-- Sleep (Wakes to a black screen after a while)
-- Airplay, Sidecar, etc. (Airport needs an authentic apple WiFi chip and sidecar is intel-ONLY)
-- Full EC Read-Write access for fan control
+- ~~Sleep (Wakes to a black screen after a while)~~ Now seems to be somewhat functional thanks to a DSDT patch
+- ~~Full EC Read-Write access for fan control~~ Now fixed thanks to @Collin8000
 - ~~Internal Mic~~ PATCHED from AppleALC 1.8.8+
+
+## What will never work with my specs:
+- Airplay, Sidecar, etc. (Airport needs an authentic apple WiFi chip and sidecar is intel-ONLY)
   
 ## Installation instructions:
 
@@ -63,8 +71,5 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
     - If you have 8GB RAM, it is not recommended to upgrade to 4GB
     - This option is under Config/Display in the ThinkPad BIOS
 - Recommended: Change CPU name to actual CPU using @corpnewt's [CPU-name](https://github.com/corpnewt/CPU-Name)
-- OPTIONAL: Remove Ryzen power management as it can cause some instability
-
-
 
 
