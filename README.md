@@ -36,8 +36,8 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 
 ## Minor issues:
 - Audio stops working every now and then, but can be fixed by opening settings and re-selecting the internal speakers as output
-- Certain OpenGL apps (such as Notion) cause massive glitches. Unfortunately not much can be done about this as it is an issue with NootedRed itself.
-- Settings sometime crashes (Fixed by running sudo purge in terminal)
+~~- Certain OpenGL apps (such as Notion) cause massive glitches. Unfortunately not much can be done about this as it is an issue with NootedRed itself.~~ Can now be fixed using AMDHelper, although it is experimental.
+- Settings sometime crashes (Fixed by running "sudo purge" in terminal)
 - Sonoma is still quite buggy
     
 ## What doesn't work:
@@ -46,7 +46,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - ~~Full EC Read-Write access for fan control~~ Now fixed thanks to @Collin8000
 
 ## What will never work with my specs:
-- Airplay, Sidecar, etc. (Airport needs an authentic apple WiFi chip and sidecar is intel-ONLY)
+- Airplay, Sidecar, etc. (Airport needs an authentic apple WiFi chip & sidecar is intel-ONLY)
   
 ## Installation instructions:
 
@@ -68,6 +68,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 
 ### Post-Install
 
+- IMPORTANT: Intall [AMDHelper](https://github.com/alvindimas05/AMDHelper) to patch any chromium/openGL based apps to prevent severe compute crashes.
 - Recommended: Set VRAM to 2GB (or 4GB) in BIOS for improved graphics performance
     - If you have 8GB RAM, it is not recommended to upgrade to 4GB
     - This option is under Config/Display in the ThinkPad BIOS
