@@ -36,7 +36,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 
 ## Minor issues:
 - Audio stops working every now and then, but can be fixed by opening settings and re-selecting the internal speakers as output
-~~- Certain OpenGL apps (such as Notion) cause massive glitches. Unfortunately not much can be done about this as it is an issue with NootedRed itself.~~ Can now be fixed using [AMDHelper]([(https://github.com/alvindimas05/AMDHelper)]), although it is experimental.
+~~- Certain OpenGL apps (such as Notion) cause massive glitches. Unfortunately not much can be done about this as it is an issue with NootedRed itself.~~ Can now be fixed using [AMDHelper]([url](https://github.com/alvindimas05/AMDHelper)), although it is experimental.
 - Settings sometime crashes (Fixed by running "sudo purge" in terminal)
 - Sonoma is still quite buggy
     
