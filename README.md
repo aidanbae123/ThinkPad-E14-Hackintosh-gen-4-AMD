@@ -1,6 +1,6 @@
 # Hackintosh EFI for Gen 4 AMD ThinkPad E14
 
-Opencore version v0.9.9
+Opencore version v1.0.3
 
 This is a mostly functioning EFI for the ThinkPad E14 gen 4 (AMD version).
 
@@ -33,18 +33,17 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - Built-in mic
 - Dual Boot
 - Continuity Camera (Wired ONLY)
+- SLEEP - Now thanks to using USBMap.kext rather than USBToolBox.kext
 
 ## Minor issues:
-- Audio stops working every now and then, but can be fixed by opening settings and re-selecting the internal speakers as output
-~~- Certain OpenGL apps (such as Notion) cause massive glitches. Unfortunately not much can be done about this as it is an issue with NootedRed itself.~~ Can now be fixed using [AMDHelper]([url](https://github.com/alvindimas05/AMDHelper)), although it is experimental.
+- Battery life is quite poor
+- Facetime is weird: There is no incoming video on calls (other person can see you but you can't see them). Audio works fine.
+- ~~Audio stops working every now and then, but can be fixed by opening settings and re-selecting the internal speakers as output~~ Now seemingly gone with appleALC updates
+~~- Certain OpenGL apps (such as Chrome) cause massive glitches. Unfortunately not much can be done about this as it is an issue with NootedRed itself.~~ Can now be fixed using [AMDHelper]([url](https://github.com/alvindimas05/AMDHelper))- experimental but seems to work fine.
 - Settings sometime crashes (Fixed by running "sudo purge" in terminal)
 - Sonoma is still quite buggy
+- When you have too much storage used, the laptop starts restarting with an "NVME command timeout" kernel panic
     
-## What doesn't work:
-
-- Sleep ~~Now seems to be somewhat functional thanks to either a DSDT patch OR [this supposed fix](https://www.tonymacx86.com/threads/solved-ventura-sonoma-random-scheduled-pm-wake-from-sleep.323359/)~~ Now the laptop doesn't sleep AT ALL
-- ~~Full EC Read-Write access for fan control~~ Now fixed thanks to @Collin8000
-
 ## What will never work with my specs:
 - Airplay, Sidecar, etc. (Airport needs an authentic apple WiFi chip & sidecar is intel-ONLY)
   
@@ -70,8 +69,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 
 - IMPORTANT: Intall [AMDHelper](https://github.com/alvindimas05/AMDHelper) to patch any chromium/openGL based apps to prevent severe compute crashes.
 - Recommended: Set VRAM to 2GB (or 4GB) in BIOS for improved graphics performance
-    - If you have 8GB RAM, it is not recommended to upgrade to 4GB
     - This option is under Config/Display in the ThinkPad BIOS
-- Recommended: Change CPU name to actual CPU using @corpnewt's [CPU-name](https://github.com/corpnewt/CPU-Name)
+- Optional: Change CPU name to actual CPU using @corpnewt's [CPU-name](https://github.com/corpnewt/CPU-Name)
 
 
