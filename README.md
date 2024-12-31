@@ -74,6 +74,6 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 
 
 ## Credits
-- @Acidanthera for OC
-- @ChefKissInc for NootedRed
-- @zhen-zen for YogaSMC
+- [@Acidanthera]([url](https://github.com/acidanthera)) for OC
+- [@ChefKissInc]([url](https://github.com/ChefKissInc/NootedRed)) for NootedRed
+- [@zhen-zen]([url](https://github.com/zhen-zen)) for YogaSMC
