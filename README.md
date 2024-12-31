@@ -39,7 +39,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - Battery life is quite poor
 - Facetime is weird: There is no incoming video on calls (other person can see you but you can't see them). Audio works fine.
 - ~~Audio stops working every now and then, but can be fixed by opening settings and re-selecting the internal speakers as output~~ Now seemingly gone with appleALC updates
-~~- Certain OpenGL apps (such as Chrome) cause massive glitches. Unfortunately not much can be done about this as it is an issue with NootedRed itself.~~ Can now be fixed using [AMDHelper]([url](https://github.com/alvindimas05/AMDHelper))- experimental but seems to work fine.
+- ~~- Certain OpenGL apps (such as Chrome) cause massive glitches. Unfortunately not much can be done about this as it is an issue with NootedRed itself.~~ Can now be fixed using [AMDHelper]([url](https://github.com/alvindimas05/AMDHelper))- experimental but seems to work fine.
 - Settings sometime crashes (Fixed by running "sudo purge" in terminal)
 - Sonoma is still quite buggy
 - When you have too much storage used, the laptop starts restarting with an "NVME command timeout" kernel panic
