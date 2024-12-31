@@ -73,3 +73,7 @@ Also, it is generally recommended to build your own EFI, so use only as a last r
 - Optional: Change CPU name to actual CPU using @corpnewt's [CPU-name](https://github.com/corpnewt/CPU-Name)
 
 
+## Credits
+- @Acidanthera for OC
+- @ChefKissInc for NootedRed
+- @zhen-zen for YogaSMC
